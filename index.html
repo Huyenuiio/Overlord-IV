@@ -532,7 +532,7 @@ window.onload = function() {
     // Kiểm tra xem người dùng đã nhìn thấy thông báo chưa
     if (!localStorage.getItem('adblockPromptShown')) {
         // Hiển thị thông báo cho người dùng
-        var userResponse = confirm("Chúng tôi khuyên bạn nên cài đặt tiện ích Adblock Plus để có trải nghiệm tốt nhất. Bạn có muốn cài đặt Adblock Plus không? Mỗi khi tải trang web bạn sẽ thấy các tập phim sáng lên, đó là lúc hàm javascript đang chạy để tìm lại tập phim mà bạn đã xem trước đó mất khoảng hơn 10s tuy vào độ dài của phim. Nếu là lần đầu bạn truy cập vào thì web sẽ chọn tập 1 cho bạn, hãy để hàm chạy rồi mới thao tác trên web nha. Nhấn ok cài đặt trình chặn quảng cáo, nhấn hủy để ủng hộ tôi <3");
+        var userResponse = confirm("Chúng tôi khuyên bạn nên cài đặt tiện ích Adblock Plus để có trải nghiệm tốt nhất. Mỗi khi tải trang web bạn sẽ thấy các tập phim sáng lên, đó là lúc hàm Javascript đang chạy để tìm lại tập phim mà bạn đã xem trước đó mất khoảng hơn 10s tùy vào độ dài của phim. Nếu là lần đầu bạn truy cập vào thì web sẽ chọn tập 1 cho bạn, hãy để hàm chạy rồi mới thao tác trên web nha. Nhấn ok cài đặt trình chặn quảng cáo, nhấn hủy để ủng hộ tôi <3");
 
         // Nếu người dùng nhấn 'OK', chuyển hướng họ đến trang cài đặt của Adblock Plus
         if (userResponse) {
